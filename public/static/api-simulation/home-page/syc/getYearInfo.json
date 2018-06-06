@@ -1,0 +1,25 @@
+{
+  "objectId":"",
+  "resultMessage":"自定义查询成功！",
+  "totalCount":5,
+  "domainName":null,
+  "isSuccessValue":null,
+  "isSuccess":true,
+  "data":[
+    {
+      "year":"2014"
+    },
+    {
+      "year":"2015"
+    },
+    {
+      "year":"2016"
+    },
+    {
+      "year":"2017"
+    },
+    {
+      "year":"2018"
+    }
+  ]
+}

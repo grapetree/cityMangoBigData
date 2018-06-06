@@ -1,0 +1,6 @@
+[
+  {"name":"鲜果销量","mount":1000,"onYear":5,"flag1":-1,"onMonth":1,"flag2":1},
+  {"name":"加工品销量","mount":100,"onYear":5,"flag1":-1,"onMonth":1,"flag2":1},
+  {"name":"鲜果产值","mount":1000,"onYear":5,"flag1":-1,"onMonth":1,"flag2":1},
+  {"name":"加工品产值","mount":100,"onYear":5,"flag1":-1,"onMonth":1,"flag2":1}
+]

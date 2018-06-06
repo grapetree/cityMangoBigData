@@ -1,0 +1,17 @@
+{
+  "objectId":"",
+  "resultMessage":"自定义查询成功！",
+  "totalCount":5,
+  "domainName":null,
+  "isSuccessValue":null,
+  "isSuccess":true,
+  "data":[
+    {
+      "2014":260,
+      "2015":140,
+      "2016":96,
+      "2017":38,
+      "2018":116
+    }
+  ]
+}

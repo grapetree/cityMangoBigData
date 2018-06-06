@@ -1,0 +1,16 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "data": {
+    "wholeSale": {
+      "data": 8.8,
+      "month" : 7.2,
+      "year": 6.5
+    },
+    "retail": {
+      "data": 10.8,
+      "month" : 9.2,
+      "year": 7.3
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.plant-state p {
+    margin-bottom: 0;
+}
+.plant-state {
+    position: absolute;
+    left: 20px;
+    top: 85px;
+}
+
+.plant-state .list {
+    width: 385px;
+    height: 75px;
+    margin-bottom: 13px;
+    /*border-bottom: 1px solid #001541;*/
+}
+
+.plant-state .list>li {
+    float: left;
+}
+.plant-state .list .img {
+    width: 74px;
+    height: 71px;
+}
+.plant-state .list .value {
+    width: 134px;
+    height: 71px;
+    font-size: 16px;
+    text-align: right;
+}
+.plant-state .list .value p:nth-child(1) {
+    color: #46ebff;
+    height: 20px;
+}
+.plant-state .list .value p:nth-child(2) {
+    color: #fff;
+}
+.plant-state .list .percent {
+    width: 174px;
+    height: 71px;
+    text-align: right;
+    font-size: 16px;
+}
+.plant-state .list .percent p:nth-child(1) {
+    color: #46ebff;
+    width: 120px;
+    height: 20px;
+}
+.plant-state .list .percent .arrow {
+    width: 15px;
+    height: 20px;
+    margin: 0 12px 15px 12px;
+}
+.plant-state .list .percent .distance {
+    width: 5px;
+    display: inline-block;
+}

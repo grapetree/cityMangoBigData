@@ -1,0 +1,96 @@
+/* 入密林者，可识光 */
+ 
+.my-chart{
+    .my-chart-bg {
+        position: absolute;
+        background: url(./quality-chart-bg.png) no-repeat;
+        background-size: 100% 100%;
+        &:nth-child(1){
+            top: 124px;
+        }
+        &:nth-child(2){
+            top: 448px;
+        }
+        &:nth-child(3){
+            top: 124px;
+        }
+        &:nth-child(4){
+            top: 124px;
+        }
+        &:nth-child(5){
+            top: 448px;
+        }
+    }
+    .bottom-left-chart,.bottom-right-chart{
+        width: 840px;
+        height: 276px;
+        bottom: 32px;
+    }
+    .bottom-left-chart{
+        left: 160px;
+    }
+    .left-chart,.right-chart{
+        width: 420px;
+        height: 300px;
+    }
+    .left-chart,.bottom-left-chart{
+        left: 160px;
+    }
+    .right-chart,.bottom-right-chart{
+        right: 54px;
+    }
+    .center-chart{
+        left: 580px;
+        width: 865px;
+        height: 675px;
+        background: url(./quality-safe-map.png) no-repeat;
+        background-size: 100% 100%; 
+    }
+    .quality-title{
+        height: 50px;
+        width: 100%;
+    }
+    .quality-chart{
+        height: 250px;
+        width: 100%;
+        .center-chart-left{
+            width:40%;
+            height:100%;
+        }
+        .center-chart-right{
+            width:60%;
+            height:100%;
+        }
+    }
+    .quality-title-under{
+        padding: 10px 85px 0;
+        color: #78c9ff;
+        div{
+            float: left;
+            width: 104px;
+            height: 55px;
+            background: url(./quality-title-under_06.png) no-repeat;
+            background-size: 100% 100%;
+            span,strong{
+                display: block;
+                text-align: center;
+                .numSpan {
+                    font-size: 20px;
+                    padding-right: 5px;
+                }
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+    .gauge-bg{
+        position: absolute;
+        top: 65px;
+        left: 68px;
+        width: 289px;
+        height: 188px;
+        background: url(./yibiaopan.png) no-repeat;
+        background-size: 100% 100%;
+    }
+}

@@ -1,0 +1,123 @@
+.PriceSurveyClass{
+  position: absolute;
+  /*width: 1920px;
+  height: 1080px;*/
+  width:17.4rem;
+  top: 1.15rem;
+  left: 1.8rem;
+  padding-right: 0.4rem;
+  box-sizing: border-box;
+}
+.PriceSurveyClass .top{
+  flex:1;
+  height:0.88rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .refresh-time{
+    font-size:0.16rem;
+    color: #99ccff;
+    margin-left:1.5rem;
+  }
+  .tab-btn{
+    width:2.3rem;
+    height:0.3rem;
+    border:1px solid #37fffb;
+    border-radius: 0.15rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .top-right{
+    width:2.62rem;
+  }
+}
+
+.PriceSurveyClass .box{
+  display: flex;
+  height:9rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.PriceSurveyClass{
+  display: flex;
+  flex-direction: column;
+}
+  .bottomKline{
+    height:6rem;
+  }
+  .bottomEcharts{
+    height:3rem;
+    width:17rem;
+    position:absolute;
+    top:8rem;
+    left:1.8rem;
+  }
+  .bottomKline,.bottomEcharts{
+     display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  
+  .echarts-item{
+    display: flex;
+    flex-direction: column;
+    width: 4.1rem;
+    height: 2.6rem;
+    background-image: url("./chart-itemBg.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+.tab-btn span{
+  flex:1;
+  border-radius: 0.15rem;
+  font-size: 0.16rem;
+  color: #99ccff;
+  text-align: center;
+  vertical-align: middle;
+  &.active{
+    background: #23cdfd;
+    color: #02165d;
+  }
+}
+
+.chart-title-wrap{
+  height:0.4rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  .subhead{
+    height:100%;
+    line-height:0.5rem;
+    color: #23cdfd;
+    position: absolute;
+    left:1.3rem;
+    font-size:0.14rem;
+  }
+}
+.chart-select{
+  height:0.4rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  .select-type1,.select-type2{
+    color: #fff;
+    font-size:0.16rem;
+    position: absolute;
+    top:0.05rem;
+  }
+  .select-type1{
+      left:0.2rem;
+  }
+  .select-type2{
+      left:2.2rem;
+  }
+}
+.echarts-wrap {
+  flex:1;
+}

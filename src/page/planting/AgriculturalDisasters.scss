@@ -1,0 +1,238 @@
+.AgriculturalDisastersClass {
+    position: absolute;
+    width: 17.4rem;
+    top: 1.15rem;
+    left: 1.8rem;
+    height: 100%;
+    padding-right: 0.4rem;
+    box-sizing: border-box;
+    .TopmsgClass {
+        position: absolute;
+        height: 1.07rem;
+        width: 11.70rem;
+        top: 0.5rem;
+        left: 0.8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 10;
+    }
+    .msg-item {
+        width: 2.7rem;
+        height: 1.05rem;
+        border: 3px solid #46ebff;
+        border-width: 1px 0 3px;
+        position: relative;
+        p {
+            color: white;
+            font-size: 0.2rem;
+            text-align: center;
+            margin-top: 0.15rem;
+        }
+        .msg-num {
+            position: absolute;
+            left: 0.9rem;
+            bottom: 0.1rem;
+            font-weight: 700;
+            font-size: 0.2rem;
+            display:flex;
+            flex-dicition:row;
+            align-items: baseline ;
+        }
+        .color1 {
+            background: linear-gradient(rgb(254, 214, 69), rgb(238, 162, 31));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .color2 {
+            background: linear-gradient(rgb(154, 255, 255), rgb(33, 209, 245));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .color3 {
+            background: linear-gradient(rgb(72, 193, 255), rgb(72, 193, 255));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .color4 {
+            background: linear-gradient(rgb(42, 245, 148), rgb(42, 245, 148));
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .markUp,.markDown{
+            display:block;
+            overflow:hidden;
+            width:0.34rem;
+            height:0.34rem;
+            margin-right:10px;
+                   
+        }
+        .markUp{
+            -webkit-animation: arrowUp 1s infinite ease-in-out;  
+        }
+        .markDown{
+            -webkit-animation: arrow 1s infinite ease-in-out;   
+        }
+         .markUp .iconfont {
+            font-size: 0.28rem;
+            color: #ff612a;
+            margin-left: 0.1rem;
+
+        }
+        
+        .markDown .iconfont {
+            font-size: 0.28rem;
+            color: #0af181b9;
+            margin-left: 0.1rem;
+        }
+         @-webkit-keyframes arrow {
+          0% {
+                //opacity:1;
+              -webkit-transform:translate(0,1px)
+          }
+          50% {
+             //opacity:0.7;
+              -webkit-transform:translate(0,3px)
+          }
+          100% {
+             //opacity:0.4;
+              -webkit-transform:translate(0,5px)
+          }
+      }
+        @-webkit-keyframes arrowUp {
+          0% {
+                //opacity:1;
+              -webkit-transform:translate(0,-5px)
+          }
+          50% {
+             //opacity:0.7;
+              -webkit-transform:translate(0,-3px)
+          }
+          100% {
+             //opacity:0.4;
+              -webkit-transform:translate(0,-2px)
+          }
+      }
+
+    }
+    .msg-item::before {
+        position: absolute;
+        content: '';
+        top: -2px;
+        display: inline-block;
+        width: 0.2rem;
+        height: 3px;
+        background: #46ebff;
+    }
+    .msg-item::after {
+        position: absolute;
+        content: '';
+        top: -2px;
+        right: 0;
+        display: inline-block;
+        width: 0.2rem;
+        height: 3px;
+        background: #46ebff;
+    }
+    .AdisasterRight {
+        display: flex;
+        flex-direction: column;
+        .right-item {
+            flex: 1;
+            position: relative;
+            padding: 0.64rem 0.2rem 0rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            .factorExplain {
+                position: absolute;
+                right: 0.4rem;
+                top: 0.2rem;
+                font-size: 0.14rem;
+                color: #72f0fc;
+                cursor: pointer;
+            }
+            .echartsExplain {
+                color: #46ebff;
+                font-size: 0.14rem;
+                height: 0.4rem;
+                position: relative;
+                .factorType {
+                    color: #fff;
+                    font-size: 0.16rem;
+                    display: inline-block;
+                    padding-top: 0.05rem;
+                    box-sizing: border-box;
+                }
+            }
+            .echartsWarp {
+                flex: 1;
+            }
+            .bgClass {
+                position: relative;
+            }
+            .bgClass:after {
+                position: absolute;
+                top: 0.29rem;
+                left: 0.37rem;
+                content: '';
+                display: inline-block;
+                width: 3.60rem;
+                height: 73%;
+                background: url(./echarts-bg.png) no-repeat;
+                background-size: 100% 100%;
+                z-index:0;
+            }
+        }
+        .AdisasterTable {
+            height: 2.1rem;
+            width: 4rem;
+            font-size: 0.16rem;
+            .TableRow {
+                height: 0.32rem;
+                background: #3658bb;
+                margin-bottom: 4px;
+                display: flex;
+                flex-direction: row;
+            }
+            .TableRow:hover{
+                box-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+                border-radius: 4px;
+                transform: scale(1.05); 
+            }
+            .TableRow span {
+                flex: 1;
+                padding-left: 0.2rem;
+                box-sizing: border-box;
+                color: #a5edff;
+                display: flex;
+                align-items: center;
+            }
+            .TableRow .iconfont {
+                color: #72f0fc;
+                margin-right: 0.05rem;
+            }
+            .TableRow .disastersType {
+                color: #e2b03d;
+            }
+        }
+    }
+    .AdisasterBaiduMap {
+        height: 100%;
+        width: 12.50rem;
+        margin-top: 1.55rem;
+    }
+    .ExplainBox {
+        width:325px;
+        height:240px;
+        position:absolute;
+        top:50px;
+        right:60px;
+        background:rgba(24, 28, 108,0.8);
+        z-index:999;
+        color:#fff;
+        overflow-y:auto;
+        padding:0.2rem;
+        font-size:0.16rem;
+      }
+}

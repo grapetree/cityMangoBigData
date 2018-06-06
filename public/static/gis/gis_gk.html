@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>农业项目</title>
+
+  <link rel="stylesheet" href="lib/Openlayers4.5.0/ol.css">
+  <link rel="stylesheet" href="css/ol_popup.css">
+  <link rel="stylesheet" href="lib/layui-v2.2.2/layui/css/layui.css">
+
+  <!--<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.3&key=47af3417f2abe2acafaf2dcdfc0457c1"></script>
+-->
+  <!--measure-->
+  <!--<link rel="stylesheet" href="tooltip.css">-->
+
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .main-wrap {
+      margin: 0 auto;
+      min-width: 320px;
+      max-width: 640px;
+    }
+
+    .main-wrap video {
+      width: 100%;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div id="MyMapDiv" style="width: 100%;height: 100%;">
+    <div id="mouse-position" style="position: fixed;bottom:10px;left: 150px;z-index: 1000"></div>
+    <!--<div id="popup" class="ol-popup" style="min-width: 100px;">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content"></div>
+    </div>-->
+  </div>
+  <!--<div id = "amapdiv" style="/*display: none*/"></div>-->
+
+  <!--<a class="layui-btn" href="javascript:locationByid('pointLayer','ab211123');" style="position: fixed;top:10px;right:830px" >测试基地定位</a>
+  <a class="layui-btn" href="javascript:locationByid('polygonLayer','1');" style="position: fixed;top:10px;right:730px" >测试基地定位</a>-->
+<!--
+  <a class="layui-btn" href="javascript:modifyByid('pointLayer','ab211123');" style="position: fixed;top:10px;right:800px" >测试编辑point1</a>
+  <a class="layui-btn" href="javascript:modifyByid('pointLayer','1');" style="position: fixed;top:10px;right:650px" >测试编辑point2</a>
+
+  <a class="layui-btn" href="javascript:modifyByid('polygonLayer','1');" style="position: fixed;top:10px;right:450px" >测试编辑polygon1</a>
+  <a class="layui-btn" href="javascript:modifyByid('polygonLayer','2');" style="position: fixed;top:10px;right:240px" >测试编辑polygon2</a> -->
+
+  <!-- <a class="layui-btn" href="javascript:addPoint();" style="position: fixed;top:80px;right:830px" >测试新建点</a> -->
+  <!--<a class="layui-btn" href="javascript:addPolygon();" style="position: fixed;top:80px;right:630px" >测试新建多边形</a>-->
+
+
+  <!--<a class="layui-btn" href="javascript:openTooltip();" style="position: fixed;top:80px;right:830px" >打开提示</a>
+  <a class="layui-btn" href="javascript:closeTooltip();" style="position: fixed;top:80px;right:630px" >关闭提示</a>-->
+
+  <!--<a class="layui-btn" href="javascript:measure_addtomap();" style="position: fixed;top:180px;right:880px" >打开测量功能</a>-->
+<!--  <a class="layui-btn" href="javascript:measure_removefrommap();" style="position: fixed;top:180px;right:730px" >关闭测量</a>
+  <a class="layui-btn" href="javascript:measure_addInteraction(1);" style="position: fixed;top:180px;right:600px" >打开测距</a>
+  <a class="layui-btn" href="javascript:measure_addInteraction(2);" style="position: fixed;top:180px;right:470px" >打开测面积</a>
+  <a class="layui-btn" href="javascript:clear_measure();" style="position: fixed;top:180px;right:340px" >清空测量结果</a>-->
+
+  <a id="return_button" class="layui-btn" href="javascript:refreshVectorLayer(1);" style="position: fixed;top:180px;right:340px" >返回合作社</a>
+
+
+
+  <script src="lib/layui-v2.2.2/layui/layui.all.js"></script>
+  <script src="lib/jquery.min.js"></script>
+
+
+  <script src="lib/Openlayers4.5.0/ol.js"></script>
+  <!--<script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>-->
+
+
+  <!--<script src="demodata.js"></script>-->
+
+  <script src="gis_gk.js"></script>
+  <script type="text/javascript" src="lib/jquery-ui-1.10.4.min.js"></script>
+
+
+  <!--<script src="helpTooltip.js"></script>
+  &lt;!&ndash;measure&ndash;&gt;
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+  <script src="measure.js"></script>-->
+
+
+
+
+  <script type="text/javascript">
+
+    $(function () {
+
+      initmap();
+      loadlayersgroup_base();
+      //initPopup();
+      //addInteraction();
+
+      //addVectorLayer();
+
+      //console.log(map.getOverlays())
+
+
+
+    });
+
+  </script>
+
+</body>
+
+</html>

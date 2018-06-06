@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "data": [
+    {
+      "names": "芒果汁",
+      "yield": {
+        "val": 10,
+        "percent": 4,
+        "direction": "up"
+      },
+      "output": {
+        "val": 8,
+        "percent": 5,
+        "direction": "down"
+      }
+    },
+    {
+      "names": "芒果干",
+      "yield": {
+        "val": 12,
+        "percent": 7,
+        "direction": "up"
+      },
+      "output": {
+        "val": 15,
+        "percent": 6,
+        "direction": "down"
+      }
+    },
+    {
+      "names": "芒果酱",
+      "yield": {
+        "val": 10,
+        "percent": 4,
+        "direction": "up"
+      },
+      "output": {
+        "val": 8,
+        "percent": 5,
+        "direction": "up"
+      }
+    },
+    {
+      "names": "芒果醋",
+      "yield": {
+        "val": 10,
+        "percent": 4,
+        "direction": "down"
+      },
+      "output": {
+        "val": 8,
+        "percent": 5,
+        "direction": "down"
+      }
+    },
+    {
+      "names": "芒果酒",
+      "yield": {
+        "val": 15,
+        "percent": 3,
+        "direction": "up"
+      },
+      "output": {
+        "val": 4,
+        "percent": 5,
+        "direction": "down"
+      }
+    }
+  ]
+}

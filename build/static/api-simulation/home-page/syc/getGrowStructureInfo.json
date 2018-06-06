@@ -1,0 +1,42 @@
+{
+  "objectId":"",
+  "resultMessage":"自定义查询成功！",
+  "totalCount":4,
+  "domainName":null,
+  "isSuccessValue":null,
+  "isSuccess":true,
+  "data":[
+    {
+      "strainsText":"凯特芒",
+      "growArea":66700,
+      "growProportion":"26.11%",
+      "TIME":"2018",
+      "startTime":"2018-05-20 10:23:44",
+      "strainsCode":1
+    },
+    {
+      "strainsText":"热农一号",
+      "growArea":133400,
+      "growProportion":"52.22%",
+      "TIME":"2018",
+      "startTime":"2018-05-20 10:23:50",
+      "strainsCode":2
+    },
+    {
+      "strainsText":"澳芒",
+      "growArea":6670,
+      "growProportion":"2.61%",
+      "TIME":"2018",
+      "startTime":"2018-05-20 10:23:38",
+      "strainsCode":4
+    },
+    {
+      "strainsText":"红象牙",
+      "growArea":48690,
+      "growProportion":"19.06%",
+      "TIME":"2018",
+      "startTime":"2018-05-18 17:34:34",
+      "strainsCode":5
+    }
+  ]
+}

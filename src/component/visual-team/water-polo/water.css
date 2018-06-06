@@ -1,0 +1,41 @@
+.water-polo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.polo-bg1 {
+  width: 3.59rem;
+  position: absolute;
+  right: 0;
+  animation: PoloMove2 2s linear infinite;
+}
+.polo-bg2 {
+  width: 3.59rem;
+  position: absolute;
+  right: 0;
+  animation: PoloMove1 4s linear infinite;
+}
+.water-polo .value {
+  position: absolute;
+  top: 50%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin-top: -0.15rem;
+  text-align: center;
+}
+@keyframes PoloMove1 {
+ 0% {
+   right: 0;
+ }
+  100% {
+    right: -1.295rem;
+  }
+}
+@keyframes PoloMove2 {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -1.38rem;
+  }
+}

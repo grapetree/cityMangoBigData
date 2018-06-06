@@ -1,0 +1,34 @@
+.market-container{
+    &>.left-chart{
+        position: absolute;
+        left: 160px;
+        top: 105px;
+        width: 1055px;
+        height: 955px;
+    }
+    &>.right-chart{
+        position: absolute;
+        right: 40px;
+        width: 664px;
+        height: 300px;
+        background: url(./market-paice-echarts.png) no-repeat;
+
+        &:nth-child(2){
+            top: 105px;
+        }
+        &:nth-child(3){
+            top: 433px;
+        }
+        &:nth-child(4){
+            bottom: 20px;
+        }
+    }
+    .market-price-title{
+        width: 100%;
+        height: 60px;
+    }
+    .market-price-chart{
+        width: 100%;
+        height: 240px;
+    }
+}

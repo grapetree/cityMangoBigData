@@ -1,0 +1,51 @@
+.visual-pull-down .area-place {
+}
+
+.visual-pull-down *, *::before, *::after {
+  box-sizing: content-box;
+}
+
+.visual-pull-down .pull-down-topic {
+  height: 26px;
+  line-height: 26px;
+  border: 2px solid #74FFFB;
+  padding: 0 0.1rem;
+  cursor: pointer;
+  background-color: #115DC8;
+  border-radius: 0.3rem;
+}
+
+.visual-pull-down .area-place .area-word {
+  font-size: 0.15rem;
+  color: #ffffff;
+  float: left;
+}
+.visual-pull-down .area-place .area-img {
+  float: right;
+  width: 0.12rem;
+  height: 0.1rem;
+  background: url("down.png") no-repeat center;
+  background-size: contain;
+  margin-top: 0.09rem;
+  margin-left: .05rem;
+  transition: all 0.5s;
+}
+.visual-pull-down .pull-down-internet {
+  position: relative;
+  z-index: 100;
+  background-color: rgba(32,90,177,1);
+  border-radius: 0.10rem;
+}
+
+.visual-pull-down .pull-down-internet li {
+  padding-left: 0.1rem;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.15rem;
+  height: 35px;
+  line-height: 35px;
+}
+.visual-pull-down .pull-down-internet li:hover {
+  color: #74FFFB;
+}

@@ -1,0 +1,65 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "data": [{
+      "imgUrl": "./static/image/Mango.png",
+      "enterpriseName": "丽江耀翔农产品开发有限公司",
+      "corporationName": "熊锦斌",
+      "foundDate": "1-5年",
+      "registeredCapital": "200",
+      "linkmanMobile": "13170788924",
+      "email": "13170788924@163.com",
+      "address": "云南省丽江市华坪县中心镇河东新城区桂花巷53号3楼301室"
+    },
+    {
+      "imgUrl": "./static/image/Mango.png",
+      "enterpriseName": "丽江耀翔农产品开发有限公司",
+      "corporationName": "熊锦斌",
+      "foundDate": "1-5年",
+      "registeredCapital": "200",
+      "linkmanMobile": "13170788924",
+      "email": "13170788924@163.com",
+      "address": "云南省丽江市华坪县中心镇河东新城区桂花巷53号3楼301室"
+    },
+    {
+      "imgUrl": "./static/image/Mango.png",
+      "enterpriseName": "丽江耀翔农产品开发有限公司",
+      "corporationName": "熊锦斌",
+      "foundDate": "1-5年",
+      "registeredCapital": "200",
+      "linkmanMobile": "13170788924",
+      "email": "13170788924@163.com",
+      "address": "云南省丽江市华坪县中心镇河东新城区桂花巷53号3楼301室"
+    },
+    {
+      "imgUrl": "./static/image/Mango.png",
+      "enterpriseName": "丽江耀翔农产品开发有限公司",
+      "corporationName": "熊锦斌",
+      "foundDate": "1-5年",
+      "registeredCapital": "200",
+      "linkmanMobile": "13170788924",
+      "email": "13170788924@163.com",
+      "address": "云南省丽江市华坪县中心镇河东新城区桂花巷53号3楼301室"
+    },
+    {
+      "imgUrl": "./static/image/Mango.png",
+      "enterpriseName": "丽江耀翔农产品开发有限公司",
+      "corporationName": "熊锦斌",
+      "foundDate": "1-5年",
+      "registeredCapital": "200",
+      "linkmanMobile": "13170788924",
+      "email": "13170788924@163.com",
+      "address": "云南省丽江市华坪县中心镇河东新城区桂花巷53号3楼301室"
+    },
+    {
+      "imgUrl": "./static/image/Mango.png",
+      "enterpriseName": "丽江耀翔农产品开发有限公司",
+      "corporationName": "熊锦斌",
+      "foundDate": "1-5年",
+      "registeredCapital": "200",
+      "linkmanMobile": "13170788924",
+      "email": "13170788924@163.com",
+      "address": "云南省丽江市华坪县中心镇河东新城区桂花巷53号3楼301室"
+    }
+  ]
+}

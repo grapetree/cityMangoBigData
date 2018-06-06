@@ -1,0 +1,71 @@
+.history-future .area-place {
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+
+.history-future .pull-down-topic {
+  /*width: 0.8rem;*/
+  height: 30px;
+  line-height: 30px;
+  border: 2px solid #74FFFB;
+  padding: 0 0.1rem;
+  cursor: pointer;
+  background-color: #115DC8;
+  border-radius: 0.3rem;
+}
+
+.history-future .basic-image-down {
+  width: 1.4rem;
+}
+
+.history-future .area-place .area-word {
+  font-size: 0.15rem;
+  color: #ffffff;
+  float: left;
+}
+.history-future .area-place .area-img {
+  float: right;
+  width: 0.12rem;
+  height: 0.1rem;
+  background: url("down.png") no-repeat center;
+  background-size: contain;
+  margin-top: 0.09rem;
+  margin-left: .05rem;
+  transition: all 0.5s;
+}
+.history-future .scenic-choice {
+  margin: 0 0.3rem;
+}
+.history-future .pull-down-internet {
+  /*width: 1.75rem;*/
+  /*height: 2rem;*/
+  /*overflow: auto;*/
+  position: relative;
+  z-index: 100;
+  background-color: rgba(32,90,177,0.5);
+  border-radius: 0.10rem;
+}
+
+.history-future .basic-image-down-list {
+  width: 1.6rem;
+}
+
+.history-future .pull-down-internet_month {
+  width: .8rem;
+}
+.history-future .pull-down-internet li {
+  padding-left: 0.15rem;
+  padding-right: 0.2rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.15rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+}
+.history-future .basic-image-down-list li {
+  padding-left: 0.1rem;
+  padding-right: 0rem;
+}
+.history-future .pull-down-internet li:hover {
+  color: #74FFFB;
+}

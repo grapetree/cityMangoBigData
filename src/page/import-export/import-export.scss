@@ -1,0 +1,105 @@
+.import-container{
+    &>.left-chart{
+        position: absolute;
+        left: 160px;
+        top: 105px;
+        width: 1055px;
+        height: 955px;
+    }
+    &>.right-chart{
+        position: absolute;
+        right: 40px;
+        width: 664px;
+        height: 300px;
+        background: url(./market-paice-echarts.png) no-repeat;
+
+        &:nth-child(2){
+            top: 105px;
+        }
+        &:nth-child(3){
+            top: 433px;
+        }
+        &:nth-child(4){
+            bottom: 20px;
+        }
+    }
+    .import-price-title{
+        width: 100%;
+        height: 60px;
+    }
+    .import-price-chart{
+        width: 100%;
+        height: 240px;
+    }
+    .import-tab{
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        .ant-radio-button-wrapper{
+            border: none;
+            background: none;
+            color: #fff;
+            box-shadow: none;
+        }
+        .ant-radio-button-wrapper:not(:first-child)::before{
+            background: none;
+        }
+        .ant-radio-button-wrapper-checked{
+           border-bottom: 2px solid #fff; 
+        }
+    }
+    .import-select-container{
+        position: absolute;
+        top: 0 ;
+        right: 0;
+        width: 100%;
+        .import-change{
+            position: absolute;
+            top: 20px;
+            z-index: 9999999
+        }
+        .history-future .pull-down-topic{
+            border-width: 1px;
+        }
+        .import-change:nth-child(1){
+            left: 20px;
+        }
+        .import-change:nth-child(2){
+            left: 285px;
+        }
+        .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content-animated{
+            display: none;
+        }
+        .ant-tabs-bar{
+            border: none;
+            .ant-tabs-nav{
+                height: 30px;
+                width: 232px;
+                box-sizeing: border-box;
+                border: 1px solid #18bbff;
+                border-radius: 20px;
+                color: #82bcff;
+                background-color: rgba(15, 20, 251, 0.25);
+                .ant-tabs-ink-bar{
+                    display: none !important;
+                }
+                .ant-tabs-tab{
+                    width: 116px;
+                    height: 30px;
+                    line-height: 28px;
+                    font-size: 16px;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: all .2s ease-in;
+                }
+                .ant-tabs-tab-active{
+                    color: #02165d;
+                    background: #24d0fd;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

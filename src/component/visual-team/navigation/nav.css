@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+}
+.second-list {
+    opacity: 0;
+}
+.first-list:hover .second-list {
+    animation: navChangeWidth 0.5s forwards;
+}
+.second-list li {
+    color: #46b9ff;
+}
+.second-list li:hover {
+    color: #fff;
+}
+.second-list li:hover .list-circle {
+    background-color: #fff;
+}
+.second-list li .list-circle {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    transform: rotate(45deg);
+    background-color: #46b9ff;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+a {
+    color: transparent;
+    transition: color 0s;
+}
+@keyframes navChangeWidth {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    50% {
+        width: 150px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 150px;
+        opacity: 1;
+    }
+}

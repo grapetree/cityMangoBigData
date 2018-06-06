@@ -1,0 +1,25 @@
+{
+  "day": [
+            {"fromRegionCode":"640000","touristNum":"宁夏","value":0.1},
+            {"fromRegionCode":"370000","touristNum":"山东","value":0.2},
+            {"fromRegionCode":"630000","touristNum":"青海","value":0.3},
+            {"fromRegionCode":"310000","touristNum":"上海","value":0.4},
+            {"fromRegionCode":"150000","touristNum":"内蒙古","value":0.5},
+            {"fromRegionCode":"440000","touristNum":"广东","value":0.6},
+            {"fromRegionCode":"510000","touristNum":"四川","value":0.7},
+            {"fromRegionCode":"430000","touristNum":"湖南","value":0.8},
+            {"fromRegionCode":"230000","touristNum":"黑龙江","value":0.9},
+            {"fromRegionCode":"540000","touristNum":"西藏","value":1}
+          ],
+  "month":
+          [
+            {"fromRegionCode":"210000","touristNum":"辽宁"},
+            {"fromRegionCode":"150000","touristNum":"内蒙古"},
+            {"fromRegionCode":"650000","touristNum":"新疆"},
+            {"fromRegionCode":"620000","touristNum":"甘肃"},
+            {"fromRegionCode":"370000","touristNum":"山东"},
+            {"fromRegionCode":"440000","touristNum":"广东"},
+            {"fromRegionCode":"330000","touristNum":"浙江"},
+            {"fromRegionCode":"460000","touristNum":"海南"}
+          ]
+}
